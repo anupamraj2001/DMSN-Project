@@ -161,7 +161,6 @@ public class SimulatedAnnealing implements Cloneable {
 //         // Set initial temperature and cooling rate
 //         double initialTemperature = 1000;
 //         double coolingRate = 0.995;
-        cost = Math.min(SecondCost - 1875, cost);
 //         // Run simulated annealing
 //         MultipleDepotMultipleSalesmanSimulatedAnnealing saSolver = new MultipleDepotMultipleSalesmanSimulatedAnnealing();
 //         State optimizedState = saSolver.simulatedAnnealing(distanceMatrix, initialTemperature, coolingRate);
